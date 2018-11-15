@@ -1,7 +1,12 @@
 LeaveIt Hugo Theme
 ========================
 
-LeaveIt is a clean, elegant, simple but not simpler blog theme for Hugo. 
+
+2018-11-15 Update: add the gitalk comment system.
+
+---
+
+LeaveIt is a clean, elegant, simple but not simpler blog theme for Hugo.
 
 ![hugo-theme-LeaveIt](https://raw.githubusercontent.com/liuzc/LeaveIt/master/images/screenshot.png)
 
