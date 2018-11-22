@@ -46,8 +46,9 @@
                           <a href="{{ .Permalink }}"> {{ $name }} </a>
                         {{ end -}}
                         {{ end }}
-                </span>
-                {{- end }}
+				</span>
+				{{- end }}
+				<span class="post-word-count">, {{ .WordCount }} 字</span>
         </div>
 				{{ with .Params.tags }}
 				<div class="post-tags">
