@@ -3,6 +3,9 @@ User-agent: *
 Disallow: /images/
 Disallow: /js/
 Disallow: /css/
+# Test pages
+Disallow: /test/
+Disallow: /images/test/
 
 User-agent: MJ12bot
 Disallow: /
