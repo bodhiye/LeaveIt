@@ -35,8 +35,6 @@
  <!-- Tag cloud Page -->
 {{ else if and $.Site.Taxonomies.tags (eq $termName "tags") }}
      <div class="tag-cloud-tags">
-          <snap style="color:#C0C0C0">别点 <a style="color:#C0C0C0;display:inline;margin:0" href="/tags/gnu/linux/">GNU/Linux</a>
-            _(:з」∠)_</snap>
           {{ range $.Site.Taxonomies.tags.ByCount }}
             {{ if .Name }}
             <a href="/tags/{{ .Name | urlize}}/"> {{ .Name }} <small>({{ .Count }})</small></a>
