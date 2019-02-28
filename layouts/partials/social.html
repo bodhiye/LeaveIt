@@ -4,18 +4,21 @@
 {{ with .Site.Params.Social.LinkedIn }}
 <a href="https://linkedin.com/in/{{.}}" target="_blank" rel="me noopener"><i class="iconfont icon-linkedin"></i></a>
 {{ end }}
+{{ with .Site.Params.Social.Email}}
+<a href="mailto:{{.}}" rel="me noopener"><i class="iconfont icon-mail01"></i></a>
+{{ end }}
+{{ with .Site.Params.Social.Wechat}}
+<a href="javascript:void(0);" target="_blank" rel="me noopener" onclick="document.getElementById('lightbox').style.display='inline';"><i class="iconfont icon-wechat"></i></a> 
+{{end}}
+{{ with .Site.Params.Social.QQ}}
+<a href="javascript:void(0);" target="_blank" rel="me noopener" onclick="document.getElementById('lightbox').style.display='inline';"><i class="iconfont icon-qq"></i></a> 
+{{end}}
 {{ with .Site.Params.Social.Twitter }}
 <a href="https://twitter.com/{{.}}" target="_blank" rel="me noopener"><i class="iconfont icon-twitter"></i></a>
 {{ end }}
 {{ with .Site.Params.Social.Instagram }}
 <a href="https://www.instagram.com/{{.}}/" target="_blank" rel="me noopener"><i class="iconfont icon-instagram"></i></a> 
 {{ end }} 
-{{ with .Site.Params.Social.Wechat}}
-<a href="javascript:void(0);" target="_blank" rel="me noopener" onclick="document.getElementById('lightbox').style.display='inline';"><i class="iconfont icon-wechat"></i></a> 
-{{end}}
-{{ with .Site.Params.Social.Email}}
-<a href="mailto:{{.}}" rel="me noopener"><i class="iconfont icon-mail01"></i></a>
-{{ end }}
 {{ with .Site.Params.Social.Facebook}}
 <a href="https://facebook.com/{{.}}" rel="me noopener"><i class="iconfont icon-facebook"></i></a>
 {{ end }}
