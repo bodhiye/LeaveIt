@@ -23,7 +23,7 @@
     <script src="{{ printf "%s%s" $cdn_url $main.RelPermalink }}" async=""></script>
 {{ end }}
 
-{{ if eq ( getenv "HUGO_ENV" ) "production" }}
+{{ if not .Site.IsServer }}
   {{ template "_internal/google_analytics_async.html" . }}
   {{ with .Site.Params.baiduAnalytics}}
     <script>
