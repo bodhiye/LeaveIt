@@ -10,14 +10,17 @@
 {{ with .Site.Params.Social.Wechat}}
 <a href="javascript:void(0);" rel="me noopener" onclick="document.getElementById('lightbox').style.display='inline';"><i class="iconfont icon-wechat"></i></a> 
 {{end}}
-{{ with .Site.Params.Social.WechatNum}}
-<a href="javascript:void(0);" rel="me noopener" onclick="document.getElementById('lightbox').style.display='inline';"><i class="iconfont icon-wechatnum"></i></a> 
+{{ with .Site.Params.Social.WechatGroup}}
+<a href="javascript:void(0);" rel="me noopener" onclick="document.getElementById('lightbox').style.display='inline';"><i class="iconfont icon-wechatgroup"></i></a> 
+{{end}}
+{{ with .Site.Params.Social.PublicNumber}}
+<a href="javascript:void(0);" rel="me noopener" onclick="document.getElementById('lightbox').style.display='inline';"><i class="iconfont icon-publicnumber"></i></a> 
 {{end}}
 {{ with .Site.Params.Social.QQ}}
 <a href="javascript:void(0);" rel="me noopener" onclick="document.getElementById('lightbox').style.display='inline';"><i class="iconfont icon-qq"></i></a> 
 {{end}}
-{{ with .Site.Params.Social.QQNum}}
-<a href="javascript:void(0);" rel="me noopener" onclick="document.getElementById('lightbox').style.display='inline';"><i class="iconfont icon-qqnum"></i></a> 
+{{ with .Site.Params.Social.QQGroup}}
+<a href="javascript:void(0);" rel="me noopener" onclick="document.getElementById('lightbox').style.display='inline';"><i class="iconfont icon-qqgroup"></i></a> 
 {{end}}
 {{ with .Site.Params.Social.Twitter }}
 <a href="https://twitter.com/{{.}}" target="_blank" rel="me noopener"><i class="iconfont icon-twitter"></i></a>
