@@ -8,19 +8,19 @@
 <a href="mailto:{{.}}" rel="me noopener"><i class="iconfont icon-mail01"></i></a>
 {{ end }}
 {{ with .Site.Params.Social.Wechat}}
-<a href="javascript:void(0);" rel="me noopener" onclick="document.getElementById('lightbox').style.display='inline';"><i class="iconfont icon-wechat1"></i></a> 
-{{end}}
-{{ with .Site.Params.Social.WechatGroup}}
 <a href="javascript:void(0);" rel="me noopener" onclick="document.getElementById('lightbox').style.display='inline';"><i class="iconfont icon-wechat"></i></a> 
 {{end}}
+{{ with .Site.Params.Social.WechatGroup}}
+<a href="javascript:void(0);" rel="me noopener" onclick="document.getElementById('lightbox').style.display='inline';"><i class="iconfont icon-wechat1"></i></a> 
+{{end}}
 {{ with .Site.Params.Social.PublicNumber}}
-<a href="javascript:void(0);" rel="me noopener" onclick="document.getElementById('lightbox').style.display='inline';"><i class="iconfont icon-wechat-1"></i></a> 
+<a href="javascript:void(0);" rel="me noopener" onclick="document.getElementById('lightbox').style.display='inline';"><i class="iconfont icon-wechat2"></i></a> 
 {{end}}
 {{ with .Site.Params.Social.QQ}}
-<a href="javascript:void(0);" rel="me noopener" onclick="document.getElementById('lightbox').style.display='inline';"><i class="iconfont icon-twitter"></i></a> 
+<a href="javascript:void(0);" rel="me noopener" onclick="document.getElementById('lightbox').style.display='inline';"><i class="iconfont icon-qq"></i></a> 
 {{end}}
 {{ with .Site.Params.Social.QQGroup}}
-<a href="javascript:void(0);" rel="me noopener" onclick="document.getElementById('lightbox').style.display='inline';"><i class="iconfont icon-QQ-2"></i></a> 
+<a href="javascript:void(0);" rel="me noopener" onclick="document.getElementById('lightbox').style.display='inline';"><i class="iconfont icon-qq1"></i></a> 
 {{end}}
 {{ with .Site.Params.Social.Twitter }}
 <a href="https://twitter.com/{{.}}" target="_blank" rel="me noopener"><i class="iconfont icon-twitter"></i></a>
