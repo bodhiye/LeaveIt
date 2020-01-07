@@ -17,5 +17,9 @@
 </div>
 
 {{ if .IsHome }}
+ {{ partial "qq.html" . }}
+ {{ partial "qq_group.html" . }}
  {{ partial "wechat.html" . }}
+ {{ partial "wechat_group.html" . }}
+ {{ partial "official_accounts.html" . }}
 {{ end }}
