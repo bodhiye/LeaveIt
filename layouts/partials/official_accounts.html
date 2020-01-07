@@ -1,5 +1,6 @@
-{{ $cdn_url := .Scratch.Get "cdn_url" }} {{ with
-.Site.Params.Social.OfficialAccounts}} {{ $officialaccounts := .}}
+{{ $cdn_url := .Scratch.Get "cdn_url" }} 
+{{ with .Site.Params.Social.OfficialAccounts}} 
+{{ $officialaccounts := .}}
 <style type="text/css">
   .lightbox_official_accounts {
     position: fixed;
