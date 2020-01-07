@@ -2,7 +2,7 @@
 {{ with .Site.Params.Social.QQGroup}}
 {{ $qqgroup := .}}
 <style type="text/css">
-.lightbox {
+.lightbox_qq_group {
     position: fixed;
     top: 0;
     left: 0;
@@ -36,7 +36,7 @@
 </style>
 <!-- LIGHTBOX CODE BEGIN -->
 
-<div id="lightbox" style="display: none" class="lightbox" onclick="document.getElementById('lightbox_qq1').style.display='none';">
+<div id="lightbox_qq_group" style="display: none" class="lightbox_qq_group" onclick="document.getElementById('lightbox_qq_group').style.display='none';">
     <div class="center">
         <i class="font_family icon-close"></i>
         <img src="{{ printf "%s%s" $cdn_url $qqgroup}}">
